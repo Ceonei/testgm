@@ -30,7 +30,7 @@ levl=int(input("PWM Level: "))
 if not os.path.exists("git"):
     os.makedirs("git")
 
-os.system("cd /home/pi/DIYgmSoftwareMaster/git/")
+os.system("cd /home/pi/Desktop/git/")
 os.system("git init")
 os.system("git remote add origin https://github.com/Ceonei/testgm")
 os.system("git 1s-files --deleted -z | git update-index --assume-unchanged -z --stdin")
@@ -453,7 +453,7 @@ file.close()
 
 pwm.stop(12)
 
-os.system("cd /home/pi/DIYgmSoftwareMaster/git")
+os.system("cd /home/pi/Desktop/git")
 os.system("git add .")
 os.system("git commit -m 'test'")
 os.system("git push -u origin master")
