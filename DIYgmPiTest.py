@@ -32,8 +32,8 @@ if not os.path.exists("git"):
 
 os.system("cd /home/pi/Desktop/git/")
 os.system("git init")
-os.system("git remote add origin https://github.com/Ceonei/testgm")
-os.system("git 1s-files --deleted -z | git update-index --assume-unchanged -z --stdin")
+os.system("git remote add origin https://github.com/Ceonei/TubeTesting")
+os.system("git ls-files --deleted -z | git update-index --assume-unchanged -z --stdin")
 
 if not os.path.exists("git/"+name):
     os.makedirs("git/"+name)
@@ -147,8 +147,8 @@ file.close()
 pwm.stop(12)
 
 pss="N"
-while pss != "Y":
-    pss=input("Tube is in LongCat Test Configuration? (Y/N)")
+while pss != "y":
+    pss=input("Tube is in LongCat Test Configuration? (y/n)")
 
 flname="git/"+name+"/"+name+"_LongCat"
 #file = open("R55_Dead2.txt", "w+")
@@ -181,8 +181,8 @@ file.close()
 pwm.stop(12)
 
 pss="N"
-while pss != "Y":
-    pss=input("Tube is in Long1 Test Configuration? (Y/N)")
+while pss != "y":
+    pss=input("Tube is in Long1 Test Configuration? (y/n)")
 
 flname="git/"+name+"/"+name+"_Long1"
 #file = open("R55_Dead2.txt", "w+")
@@ -215,8 +215,8 @@ file.close()
 pwm.stop(12)
 
 pss="N"
-while pss != "Y":
-    pss=input("Tube is in Long2 Test Configuration? (Y/N)")
+while pss != "y":
+    pss=input("Tube is in Long2 Test Configuration? (y/n)")
 
 flname="git/"+name+"/"+name+"_Long2"
 #file = open("R55_Dead2.txt", "w+")
@@ -249,8 +249,8 @@ file.close()
 pwm.stop(12)
 
 pss="N"
-while pss != "Y":
-    pss=input("Tube is in Long3 Test Configuration? (Y/N)")
+while pss != "y":
+    pss=input("Tube is in Long3 Test Configuration? (y/n)")
 
 flname="git/"+name+"/"+name+"_Long3"
 #file = open("R55_Dead2.txt", "w+")
@@ -283,8 +283,8 @@ file.close()
 pwm.stop(12)
 
 pss="N"
-while pss != "Y":
-    pss=input("Tube is in Long4 Test Configuration? (Y/N)")
+while pss != "y":
+    pss=input("Tube is in Long4 Test Configuration? (y/n)")
 
 flname="git/"+name+"/"+name+"_Long4"
 #file = open("R55_Dead2.txt", "w+")
@@ -317,8 +317,8 @@ file.close()
 pwm.stop(12)
 
 pss="N"
-while pss != "Y":
-    pss=input("Tube is in LongA Test Configuration? (Y/N)")
+while pss != "y":
+    pss=input("Tube is in LongA Test Configuration? (y/n)")
 
 flname="git/"+name+"/"+name+"_LongA"
 #file = open("R55_Dead2.txt", "w+")
@@ -351,8 +351,8 @@ file.close()
 pwm.stop(12)
 
 pss="N"
-while pss != "Y":
-    pss=input("Tube is in Dead1 Test Configuration? (Y/N)")
+while pss != "y":
+    pss=input("Tube is in Dead1 Test Configuration? (y/n)")
 
 flname="git/"+name+"/"+name+"_Dead1"
 #file = open("R55_Dead2.txt", "w+")
@@ -385,8 +385,8 @@ file.close()
 pwm.stop(12)
 
 pss="N"
-while pss != "Y":
-    pss=input("Tube is in Dead12 Test Configuration? (Y/N)")
+while pss != "y":
+    pss=input("Tube is in Dead12 Test Configuration? (y/n)")
 
 flname="git/"+name+"/"+name+"_Dead12"
 #file = open("R55_Dead2.txt", "w+")
@@ -419,8 +419,8 @@ file.close()
 pwm.stop(12)
 
 pss="N"
-while pss != "Y":
-    pss=input("Tube is in Dead2 Test Configuration? (Y/N)")
+while pss != "y":
+    pss=input("Tube is in Dead2 Test Configuration? (y/n)")
 
 flname="git/"+name+"/"+name+"_Dead2"
 #file = open("R55_Dead2.txt", "w+")
