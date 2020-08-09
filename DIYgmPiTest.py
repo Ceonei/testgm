@@ -33,6 +33,7 @@ if not os.path.exists("git"):
 os.system("cd /home/pi/DIYgmSoftwareMaster/git/")
 os.system("git init")
 os.system("git remote add origin https://github.com/Ceonei/testgm")
+os.system("git 1s-files --deleted -z | git update-index --assume-unchanged -z --stdin")
 
 if not os.path.exists("git/"+name):
     os.makedirs("git/"+name)
